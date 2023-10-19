@@ -1,3 +1,12 @@
+@keyframes spin {
+    0%, 15% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
 @keyframes colorchange {
     0%   {color:red; }
     25%  {color:yellow; }
@@ -8,7 +17,7 @@
 
 
 body{
-   background-color: #121212; 
+   background-color: #000000; 
    margin: 0;
    display: flex;
    align-items: center;
@@ -23,9 +32,6 @@ body{
     color:#fff; 
     text-decoration: none;
 }
-
-
- 
 
 .navbar{
     color: white;
@@ -75,10 +81,14 @@ body{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
+.KM{
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 .playful{
     animation-name: colorchange;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 .content img{
@@ -99,7 +109,7 @@ body{
 
 /* projects section  */
 .project-button{
-    background-color: #121212;
+    background-color: #000000;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -115,6 +125,261 @@ body{
     margin: .4rem auto;
     width: 1.1rem;
 }
+
+/*Page1---starts*/
+.personal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-left: 15vmin;
+    padding-right: 15vmin;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .img_personal {
+    width: 80vmin;
+    height: 50vh;
+    margin-right: 15vmin;
+    border-radius: 4vmin;
+    box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
+  }
+
+  
+.PW{
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+  
+  .txt_personal {
+    color: white;
+    margin-right: 7vmin;
+  }
+  
+  .txt_personal h2 {
+    font-size: 7vmin;
+    margin-bottom: 2vmin;
+  }
+  
+  .txt_personal ul li {
+    list-style: disc white;
+    font-size: 18px;
+  }
+  
+  .txt_personal ul {
+    margin-top: 40px;
+  }
+  
+  .txt_personal h4 {
+    font-size: 5vmin;
+    margin-top: 5vmin;
+  }
+  
+  .txt_personal p {
+    font-size: 3vmin;
+    color: grey;
+  }
+  
+  /*Page1 ----ends*/
+
+  /*page 2----starts*/
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-left: 15vmin;
+    padding-right: 15vmin;
+    width: 100%;
+    height: 110vh;
+  }
+  
+  .img_top {
+    width: 80vmin;
+    height: 50vh;
+    margin-left: 6vmin;
+    border-radius: 4vmin;
+    box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
+  }
+
+  .T{
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+  
+  .txt_top {
+    color: white;
+    margin-left: 7vmin;
+  }
+  
+  .txt_top h2 {
+    font-size: 7vmin;
+    margin-bottom: 2vmin;
+  }
+  
+  .txt_top ul li {
+    list-style: disc white;
+    font-size: 18px;
+  }
+  
+  .txt_top ul {
+    margin-top: 40px;
+  }
+  
+  .txt_top h4 {
+    font-size: 5vmin;
+    margin-top: 5vmin;
+  }
+  
+  .txt_top p {
+    font-size: 3vmin;
+    color: grey;
+  }
+  
+  /*page 2----end*/
+
+   /*page 3----starts*/
+.tj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-left: 15vmin;
+    padding-right: 15vmin;
+    width: 100%;
+    height: 110vh;
+  }
+  
+  .img_tj {
+    width: 80vmin;
+    height: 50vh;
+    margin-left: 6vmin;
+    border-radius: 4vmin;
+    box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.49);
+  }
+
+  .TJ{
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+  
+  .txt_tj {
+    color: white;
+    margin-left: 7vmin;
+  }
+  
+  .txt_tj h2 {
+    font-size: 7vmin;
+    margin-bottom: 2vmin;
+  }
+  
+  .txt_tj ul li {
+    list-style: disc white;
+    font-size: 18px;
+  }
+  
+  .txt_tj ul {
+    margin-top: 40px;
+  }
+  
+  .txt_tj h4 {
+    font-size: 5vmin;
+    margin-top: 5vmin;
+  }
+  
+  .txt_tj p {
+    font-size: 3vmin;
+    color: grey;
+  }
+  
+  /*page 3----end*/
+  
+
+/*Connect with Me -----starts*/
+.connect {
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 60vh;
+  }
+  
+  .connect p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vmin;
+    color: white;
+    font-size: 7vmin
+  }
+  
+  .connect .op {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .connect .op li {
+    margin: 60px;
+    font-size: 4vmin;
+    color: white;
+    list-style: none;
+  }
+  
+  .connect .op li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /*Connect with Me-----ends */
+  .navbar .ul .git {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .navbar .ul .lin {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .connect .woo .git {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .connect.woo .lin {
+    width: 30px;
+    height: 30px;
+  }
+  .connect .woo .resume:hover{
+    color: grey;
+  }
+  .ham {
+    height: 8vmin;
+    width: 8vmin;
+    display: none;
+    margin-left: 80vmin;
+    margin-top: 6vmin;
+    position: absolute;
+    cursor: pointer;
+  
+  }
+  .closeBtn{
+    display: none;
+  }
+  /* .closeBtn {
+    display: flex;
+    margin-bottom: 30vmin;
+    margin-left: 25vmin;
+    width: 7vmin;
+    height: 7vmin;
+    cursor: pointer;
+  }  */
+  
 
 /* ---media query--- */
 @media only screen and (max-width:600px) {
@@ -186,15 +451,944 @@ body{
     text-align: left;
 }
   
-/* projects section  */
-.project-button{
-    font-size: .9rem;
-    margin: 5rem auto;
+/* Media Query 1*/
+@media screen and (min-device-width: 1000px) and (max-device-width: 1200px)
+{
+  
+ 
+  .img_personal{
+    margin-left: 6vmin;
+  }
+  .navbar .nav-links{
+    margin-left: 45vmin;
+    align-items: center;
+  }
+  .content .image{  
+    margin-bottom: 10vmin;
+    margin-left: 5vmin;
+  }
+  .txt_personal{
+    margin-right: 5vmin;
+  }
+  .content .text {
+    padding-top: 20vmin;
+    font-size: 6vmin;
+    
+  } 
+  .myself{
+    font-size: 4vmin;
+    margin-top: 0min;
+  }
+  h1{
+    font-size: 7vmin;
+  }
+  .navbar .nav-links li a{
+    font-size: 3vmin;
+  }
+  /* TOp */
+  .top{
+    padding-left: 5vmin;
+    padding-right: 5vmin;
+  }
+  .img_top{
+    width: 50vmin;
+    height: 40vmin;
+    margin-left: 6vmin;
+    margin-right: 6vmin;
+  }
+  .txt_top h2{
+    font-size: 6vmin;
+  }
+  .txt_top p{
+    font-size: 2vmin;
+  }
+  .txt_top h4{
+    font-size: 4vmin;
+  }
+  .ctn{
+    font-size: 2vmin;
+  }
+  /* Blindr */
+  .img_blindr{
+    margin-right: 6vmin;
+    margin-left: 6vmin;
+    width: 50vmin;
+    height: 40vmin;
+  }
+  .txt_blindr h2{
+    font-size: 6vmin;
+  }
+  .txt_blindr p{
+    font-size: 2vmin;
+  }
+  .txt_blindr h4{
+    font-size: 4vmin;
+  }
+  .ctn{
+    font-size: 2vmin;
+  }
+  /* MailME */
+  .mailme{
+    padding-left: 0vmin;
+    padding-right: 0vmin;
+
+  }
+  .img_mailme{
+    
+    width: 50vmin;
+    height: 40vmin;
+    margin-right: 6vmin;
+    margin-left: 5vmin;
+  }
+  .txt_mailme h2{
+    font-size: 6vmin;
+    margin-right: 20vmin;
+  }
+  .txt_mailme p{
+    font-size: 2vmin;
+  }
+  .txt_mailme  h4{
+    font-size: 4vmin;
+  }
+  .ctn{
+    font-size: 2vmin;
+  }
+/* HM */
+.HM{
+  padding-left: 0vmin;
+  padding-right: 0vmin;
+
+}
+.img_hm{
+  width: 50vmin;
+  height: 40vmin;
+  margin-left: 3vmin;
+}
+.txt_hm{
+  margin-left: 5vmin;
+}
+.txt_hm h2{
+  font-size: 6vmin;
+}
+.txt_hm p{
+  font-size: 2vmin;
+}
+.txt_hm h4{
+  font-size: 4vmin;
+}
+.ctn{
+  font-size: 2vmin;
 }
 
-.project-button svg {
-    width: .7rem;
+/* IETE-TSEC */
+.iete{
+  padding-left: 0vmin;
+  padding-right: 0vmin;
+
+}
+.img_iete{
+  
+  width: 50vmin;
+  height: 40vmin;
+  margin-right: 0;
+  margin-left: 6vmin;
+  margin-right: 3vmin;
+}
+.txt_iete h2{
+  font-size: 6vmin;
+  margin-right: 20vmin;
+  margin-left: 0vmin;
+}
+.txt_iete p{
+  font-size: 2vmin;
+}
+.txt_iete  h4{
+  font-size: 4vmin;
+}
+.ctn{
+  font-size: 2vmin;
+}
+.txt_iete{
+  margin-left: 0;
+}
+
+/* KHOJ */
+
+.khoj{
+  padding-left: 0vmin;
+  padding-right: 0vmin;
+  display: flex;
+
+}
+.img_khoj{
+  width: 50vmin;
+  height: 40vmin;
+  margin-right: 6vmin;
+}
+.txt_khoj{
+  margin-left: 0;
+}
+.txt_khoj h2{
+  font-size: 6vmin;
+  margin-right: 20vmin;
+}
+.txt_khoj p{
+  font-size: 2vmin;
+}
+.txt_khoj  h4{
+  font-size: 4vmin;
+}
+.ctn{
+  font-size: 2vmin;
+}
+
+/* TOP */
+.top{
+  padding-left: 0vmin;
+  padding-right: 0vmin;
+  display: flex;
+
+}
+.img_top{
+  
+  width: 50vmin;
+  height: 40vmin;
+  margin-right: 0;
+  margin-left: 6vmin;
+  margin-right: 6vmin;
+}
+.txt_top{
+  margin-left: 0;
+}
+.txt_top h2{
+  font-size: 6vmin;
+  margin-right: 20vmin;
+}
+.txt_top p{
+  font-size: 2vmin;
+}
+.txt_top  h4{
+  font-size: 4vmin;
+}
+.ctn{
+  font-size: 2vmin;
+}
+
+  /* PERSONAL */
+  .personal{
+    padding-left: 0vmin;
+    padding-right: 0vmin;
+    display: flex;
+
+  }
+  .img_personal{
+    
+    width: 50vmin;
+    height: 40vmin;
+    margin-right: 0;
+    margin-left: 6vmin;
+    margin-right: 6vmin;
+  }
+  .txt_personal h2{
+    font-size: 6vmin;
+    margin-right: 20vmin;
+  }
+  .txt_personal p{
+    font-size: 2vmin;
+  }
+  .txt_personal  h4{
+    font-size: 4vmin;
+  }
+  .ctn{
+    font-size: 2vmin;
+  }
+
+}
+
+/* Media Query 2 */
+@media screen and (min-device-width: 800px) and (max-device-width: 1000px){
+  .navbar .nav-links{
+    margin-left: 30vmin;
+  }
+  #lin{
+    font-size: 4vmin;
+    margin-left: 3vmin;
+  }
+  #git{
+    font-size: 4vmin;
+    margin-left: 3vmin;
+
+  }
+  h1{
+    font-size: 7vmin;
+    margin-top: 5vmin;
+  }
+  .content .text h2{
+    font-size: 8vmin;
+  }
+  .myself{
+    font-size: 3vmin;
+  }
+  .img1{
+    width: 25vmin;
+  }
+  .pro{
+    font-size: 2vmin;
+  }
+  .aanchal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    height:110vh ;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .aanchal_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_aanchal {
+    width: 70vmin;
+    height: 50vmin;
+    margin-right: 0;
+    position: sticky;
+  }
+
+  .txt_aanchal {
+    margin-top: 3vmin;
+    margin-left: 9vmin;
+  }
+
+  .txt_aanchal h2 {
+    margin-top: 12px;
+    font-size: 6vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+
+  .txt_aanchal p {
+    font-size: 2.5vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 12px;
+  }
+
+  .txt_aanchal h4 {
+    margin-top: 2vmin;
+    font-size: 3.5vmin;
+    margin-left: 18px;
+  }
+
+  .txt_aanchal ul li {
+    list-style: disc white;
+    font-size: 2.5vmin;
+    margin-left: 24px;
+  }
+
+  .txt_aanchal ul {
+    margin-top: 2vmin;
+  }
+  .ctn{
+    font-size: 3vmin;
+  }
+
+  .btn a {
+    width: 30vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .mailme {
+    width: 100%;
+    display: block;
+    height: 110vh;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+  }
+
+  .HM {
+    width: 100%;
+    height: 110vh;
+    display: block;
+    /* align-items: center;
+    justify-content: center; */
+    /* display: flex; */
+    /* flex-direction: column; */
+  }
+
+  .iete {
+    width: 100%;
+    display: block;
+    height: 110vh;
+    /* align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; */
+  }
+
+  .khoj {
+    width: 100%;
+    height: 110vh;
+    display: block;
+    /* align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; */
+  }
+
+  .top {
+    width: 100%;
+    display: block;
+    /* align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column; */
+  }
+
+  .connect {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .img_blindr {
+    width: 70vmin;
+    height: 50vmin;
+  }
+
+  .blindr_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vmin;
+  }
+
+  .img_mailme {
+    width: 70vmin;
+    height: 50vmin;
+    margin-left: 20vmin;
+    position: sticky;
+  }
+
+  .mailme_image {
+    display: flex;
+    margin-right: 5vmin;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_hm {
+    width: 70vmin;
+    margin-right: 5vmin;
+    height: 50vmin;
+  }
+
+  .hm_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_iete {
+    width: 70vmin;
+    margin-right: 5vmin;
+    height: 50vmin;
+  }
+
+  .iete_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_top {
+    width: 70vmin;
+    margin-right: 5vmin;
+    height: 50vmin;
+  }
+
+  .top_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_khoj {
+    width: 70vmin;
+    margin-left: 10vmin;
+    height: 50vmin;
+  }
+
+  .khoj_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_personal {
+    width: 70vmin;
+    margin-right: 0vmin;
+    height: 50vmin;
+  }
+
+  .personal_image {
+    display: block;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  /* TOP*/
+  .txt_top h2 {
+    margin-top: 15px;
+    font-size: 6vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+
+  .txt_top p {
+    font-size: 2.5vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 12px;
+  }
+
+  .txt_top h4 {
+    margin-top: 2vmin;
+    font-size: 3vmin;
+    margin-left: 18px;
+  }
+
+  .txt_top ul li {
+    list-style: disc white;
+    font-size: 2.5vmin;
+    margin-left: 24px;
+  }
+
+  .txt_top ul {
+    margin-top: 2vmin;
+  }
+
+  .btn a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  /* PERSONAL */
+  .txt_personal h2 {
+    margin-top: 15px;
+    font-size: 6vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+
+  .txt_personal {
+    margin-left: 9vmin;
+    margin-top: 8vmin;
+  }
+
+  .txt_personal p {
+    font-size: 2.5vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 12px;
+  }
+
+  .txt_personal h4 {
+    margin-top: 2vmin;
+    font-size: 3vmin;
+    margin-left: 18px;
+  }
+
+  .txt_personal ul li {
+    list-style: disc white;
+    font-size: 2.5vmin;
+    margin-left: 24px;
+  }
+
+  .txt_personal ul {
+    margin-top: 2vmin;
+  }
+
+  .btn a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .connect p {
+    font-size: 8vmin;
+    margin-left: 5vmin;
+  }
+
+  .connect .op ul li {
+    /* margin: 3px; */
+    padding: 3px;
+  }
+
+  .connect .op ul {
+    margin-left: 20%;
+  }
+
+  .connect .op {
+    display: block;
+    margin-left: 38%;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 
 
-}
+/* Media Query 3 */
+@media screen and (max-width:800px)
+/*my screen size is 770*/
+  {
+  header {
+    width: 100%;
+    height: 110vmin;
+  }
+  #lin{
+    font-size: 4vmin;
+    margin-left: 3vmin;
+  }
+  #git{
+    font-size: 4vmin;
+    margin-left: 3vmin;
+
+  }
+  .closeBtn{
+      display: flex;
+      margin-bottom: 30vmin;
+      margin-left: 25vmin;
+      width: 7vmin;
+      height: 7vmin;
+      cursor: pointer; 
+  }
+
+  .navbar {
+    top: -100%;
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    background: linear-gradient(rgba(22, 21, 21, 0.798), rgba(65, 63, 63, 0.744));
+    border-bottom-right-radius: 10vmin; 
+    border-bottom-left-radius: 10vmin;
+    transition: top 0.7s ease;
+
+  }
+
+  h1 {
+    z-index: 1;
+    position: absolute;
+    font-size: 9vmin;
+    margin-left: 5vmin;
+    margin-top: 5vmin;
+  }
+
+  .navbar ul li a {
+    font-size: 3vmin;
+    margin-top: 30px;
+  }
+
+  .navbar .ul .git {
+    width: 5vmin;
+    height: 5vmin;
+  }
+
+  .navbar .ul .lin {
+    width: 4vmin;
+    height: 4vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .navbar ul {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-left: 5vmin;
+    margin-top: 2vmin;
+  }
+
+  .navbar .ul li:hover {
+    transform: scale(1.09);
+  }
+
+  .content .text {
+    color: whitesmoke;
+    font-size: 7vmin;
+    margin-left: 4vmin;
+    padding-top: 0vmin;
+  }
+
+  .content .img1 {
+    width: 35vmin;
+    height: 40vmin;
+    margin-top: 3vmin;
+  }
+
+  .content .image {
+    margin-left: 0;
+  }
+
+  .content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .myself {
+    font-size: 3vmin;
+    margin-left: 28vmin;
+  }
+
+  .pro {
+    font-size: 2vmin;
+  }
+
+  .down {
+    /* margin-left:50%; */
+    margin-top: 1vmin;
+  }
+
+  .top {
+    width: 100%;
+    display: block;
+    /* align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column; */
+  }
+
+  .connect {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .img_top {
+    width: 80vmin;
+    margin-right: 5vmin;
+    height: 60vmin;
+  }
+
+  .top_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img_personal {
+    width: 80vmin;
+    margin-right: 0vmin;
+    height: 60vmin;
+  }
+
+  .personal_image {
+    display: block;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  /* TOP */
+  .txt_top h2 {
+    margin-top: 15px;
+    font-size: 7vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+
+  .txt_top p {
+    font-size: 2.8vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 12px;
+  }
+
+  .txt_top h4 {
+    margin-top: 2vmin;
+    font-size: 4vmin;
+    margin-left: 18px;
+  }
+
+  .txt_top ul li {
+    list-style: disc white;
+    font-size: 3vmin;
+    margin-left: 24px;
+  }
+
+  .txt_top ul {
+    margin-top: 2vmin;
+  }
+
+  .btn a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  /* PERSONAL */
+  .txt_personal h2 {
+    margin-top: 15px;
+    font-size: 7vmin;
+    margin-left: 4vmin;
+    margin-bottom: 1vmin;
+  }
+
+  .txt_personal {
+    margin-left: 9vmin;
+    margin-top: 8vmin;
+  }
+
+  .txt_personal p {
+    font-size: 2.8vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18px;
+    margin-right: 12px;
+  }
+
+  .txt_personal h4 {
+    margin-top: 2vmin;
+    font-size: 4vmin;
+    margin-left: 18px;
+  }
+
+  .txt_personal ul li {
+    list-style: disc white;
+    font-size: 3vmin;
+    margin-left: 24px;
+  }
+
+  .txt_personal ul {
+    margin-top: 2vmin;
+  }
+
+  .btn a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .connect p {
+    font-size: 8vmin;
+    margin-left: 5vmin;
+  }
+
+  .connect .op ul li {
+    /* margin: 3px; */
+    padding: 3px;
+  }
+
+  .connect .op ul {
+    margin-left: 20%;
+  }
+
+  .connect .op {
+    display: block;
+    margin-left: 38%;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .ham {
+    display: block;
+    /* margin-top: 2vmin;
+    margin-left: 60vmin; */
+  }
+
+  .navbar .nav-links {
+    margin-left: 40%;
+    /* top: -100%;For hiding the navbar before the hamburger menu is clicked and when clicked it will show up from the top */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .nav-links .active {
+    top: 0;
+  }
+  }
+
+  @media screen and (max-width:700px){
+    #in{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+    }
+    #git{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+  
+    }
+  }
+  @media screen and (max-width:600px){
+    #in{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+    }
+    #git{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+  
+    }
+  }
+  @media screen and (max-width:500px){
+    #in{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+    }
+    #git{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+  
+    }
+  }
+  @media screen and (max-width:400px){
+    #in{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+    }
+    #git{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+  
+    }
+  }
+  @media screen and (max-width:300px){
+    #in{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+    }
+    #git{
+      font-size: 4vmin;
+      margin-left: 3vmin;
+  
+    }
+  }

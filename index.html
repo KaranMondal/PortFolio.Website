@@ -35,6 +35,136 @@
         <span class="project-text">Projects</span>
         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
     </button>
+    <section>
+        <!--PERSONAL WEBSITE -->
+        <div>
+            <div class="personal_image">
+                <a href="#">
+              <img class="img_personal" src="./images/100.PNG" alt="#" /></a>
+            </div>
+            <div class="txt_personal">
+              <h2><span class="PW">Personal Website</span></h2>
+              <p>Personal website made to showcase skills and projects.</p>
+              <h4>Tools Used :</h4>
+              <ul>
+                <li>React.js</li>
+                <li>GSAP</li>
+                <li>Framer-motion</li>
+              </ul>              
+            </div>
+          </div>
+
+          <br>
+          <br>
+          <br>
+          <hr align="center">
+          <br>
+          <br>
+          <br>
+
+          <!--TOP SMARTPHONES -->
+        <div>
+            <div class="personal_image">
+                <a href="http://karan17.pythonanywhere.com/">
+              <img class="img_top" src="./images/200.PNG" alt="website" />  </a>                          
+            </div>
+            <div class="txt_top">
+              <h2><span class="T">Top SmartPhones</span></h2>
+              <p>Website to Buy SmartPhone.</p>
+              <h4>Tools Used :</h4>
+              <ul>
+                <li>Python</li>
+                <li>React.js</li>
+                <li>My SQL</li>
+              </ul>              
+            </div>
+          </div>
+
+          <br>
+          <br>
+          <br>
+          <hr align="center">
+          <br>
+          <br>
+          <br>
+
+          <!--TARUN JEWELLERS -->
+        <div>
+            <div class="personal_image">
+                <a href="#">
+              <img class="img_tj" src="./images/tj.PNG" alt="website" />  </a>                          
+            </div>
+            <div class="txt_tj">
+              <h2><span class="TJ">Tarun Jewellers</span></h2>
+              <p>Custom Project Website to Buy Jewelleries.</p>
+              <h4>Tools Used :</h4>
+              <ul>
+                <li>Python</li>
+                <li>React.js</li>
+                <li>My SQL</li>
+                <li>BootStrap</li>
+              </ul>              
+            </div>
+          </div>
+
+          <br>
+          <br>
+          <br>
+          <hr align="center">
+          <br>
+          <br>
+          <br>
+
+        </section>
+
+        <div class="connect">
+            <hr align="center">
+          <p>Connect with Me</p>
+          <ul class="op">
+            <li>            
+            <a
+              class="resume"
+              href="#"
+              >Resume</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/KaranMondal">
+                <img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/FFFFFF/github.png" alt="github">
+                <i class='bx bxl-github' id="git"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/karan_._17/">
+                <img width="50" height="50" src="https://img.icons8.com/FFFFFF/instagram" alt="instagram">
+              <i class='bx bxl-instagram-square' id="in"></i></a>
+          </li>
+        </ul>
+        <hr align="center">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+      </div>
+
+      <script>
+        const ham = document.querySelector(".ham");
+        const navbar = document.querySelector(".navbar");
+        const closeBtn = document.querySelector(".closeBtn");
+  
+        ham.addEventListener("click", () => {
+          navbar.style.top = "0";
+          ham.style.display = "none";
+  
+        });
+  
+        closeBtn.addEventListener("click", () => {
+          navbar.className = "navbar";
+          ham.style.display = "block";
+          navbar.style.top = "-100%";
+        });
+      </script>
     <style type="text/css">.typewrite > .wrap { border-right: 0.08em solid #fff}
     </style>
 </body>
